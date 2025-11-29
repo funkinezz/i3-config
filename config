@@ -15,7 +15,8 @@ bindsym $mod+p exec --no-startup-id ~/.config/rofi/launchers/type-2/launcher.sh
 bindsym $mod+x exec --no-startup-id powermenu_t2
 
 # NURI ADDED BELOW FOR SWITCHING CAPS LOCK TO ESCAPE 
-exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+# exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+#edited out to do it with x11 instead
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
